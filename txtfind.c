@@ -4,8 +4,15 @@
 #define LINE 256
 #define WORD 30
 
+void print_similar_words(char * str);
+void print_lines(char * str);
+int similar(char *s, char *t, int n);
+int substring(char * str1, char * str2);
+int getword(char w[]);
+int get_line(char s[]);
 
- 
+
+
 int get_line(char s[]) {
     int i = 0;
 
